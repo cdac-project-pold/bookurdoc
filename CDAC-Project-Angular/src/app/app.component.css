@@ -53,3 +53,7 @@ body {
 #login-logo{
   margin-left: 3em;
 }
+#container{
+  display: grid;
+  grid-template-columns:70% 30%;
+}

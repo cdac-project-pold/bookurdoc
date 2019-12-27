@@ -2,18 +2,9 @@ html {
     font-size: 14px;
     height: 100%;
   }
-  @media (min-width: 768px) {
-    html {
-      font-size: 16px;
-    }
-  }
   
   .container-fluid {
     max-width: 100%;
-  }
-
-  .carousel-item{
-      max-height: 599px;
   }
   
 body {
@@ -57,4 +48,8 @@ body {
 
 .footer{
     text-align: center;
+}
+
+#login-logo{
+  margin-left: 3em;
 }

@@ -1,7 +1,42 @@
 <mat-tab-group mat-align-tabs="end">
+<<<<<<< Updated upstream
     <mat-tab label="Home">Welcome to Homepage!</mat-tab>
     <mat-tab label="About Us">Welcome to About Us!</mat-tab>
     <mat-tab label="Specialities">Welcome to Specialities!</mat-tab>
     <mat-tab label="Feedback">Welcome to Fedback!</mat-tab>
     <mat-tab label="Contact Us">Welcome to Contact Us!</mat-tab>
 </mat-tab-group>
+=======
+    <mat-tab label="Home">
+        <div id="main">
+            <div class="example-large-box mat-elevation-z4">
+                Welcome to Homepage!
+            </div>
+            <div class="example-login mat-elevation-z4">
+                <app-login></app-login>
+            </div>
+        </div>
+        
+    </mat-tab>
+    <mat-tab (selectedTabChange)="loadFooter();" label="About Us">
+        <div class="example-large-box mat-elevation-z4">
+            <app-about-us></app-about-us>
+        </div>
+    </mat-tab>
+    <mat-tab label="Specialities">
+        <div class="example-large-box mat-elevation-z4">
+            Welcome to Specialities!
+        </div>
+    </mat-tab>
+    <mat-tab label="Feedback">
+        <div class="example-large-box mat-elevation-z4">
+            Welcome to Fedback!
+        </div>
+    </mat-tab>
+    <mat-tab label="Contact Us">
+        <div class="example-large-box mat-elevation-z4">
+            <app-contact-us></app-contact-us>
+        </div>
+    </mat-tab>
+</mat-tab-group>
+>>>>>>> Stashed changes
